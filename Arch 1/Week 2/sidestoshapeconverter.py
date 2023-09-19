@@ -1,0 +1,11 @@
+Sides = input("Please enter the amount of sides: ")
+
+if Sides == "3": print("Triangle")
+elif Sides == "4": print("Square")
+elif Sides == "5": print("Pentagon")
+elif Sides == "6": print("Hexagon")
+elif Sides == "7": print("Heptagon")
+elif Sides == "8": print("Octagon")
+elif Sides == "9": print("Enneagon")
+elif Sides == "10": print("Decagon")
+elif Sides > 10 or Sides < 3 : input("Please enter an amount from 3-10: ")
